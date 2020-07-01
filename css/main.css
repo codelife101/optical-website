@@ -1,0 +1,569 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+
+
+
+button {
+	border: none;
+	background: transparent;
+}
+
+.breakLine {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	border-bottom: 1px solid black;
+}
+
+/* footer/nav start */
+.footerContainer{
+	color: white;
+	padding-left: 50px;
+	padding-right: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 100px;
+	background-color: #56514b;
+}
+/* footer/nav end */
+
+/* buttons */
+.cardBtn {
+	background-color: #f2672e;
+	color: white;
+	width: 100px;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+/* end of buttons */
+
+/* page containes + banner*/
+
+.bannerContainer {
+	margin-bottom: 100px;
+	width: 100%;
+	height: 600px;
+	background-color: #f2672e;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* home page */
+.homeContainer {
+	/* padding: 100px 100px 0px 100px; */
+	padding-top: 100px;
+	width: 100%;
+	/* height: 100%; */
+}
+
+.homeSectionOne {
+	height: 500px;
+	width: 100%;
+	padding-left: 100px;
+	/* border-bottom: 2px solid black; */
+	/* background-color: orange; */
+}
+.howWeWorkCardContainer{
+padding-bottom: 100px;
+}
+
+.homeSectionOne:after,
+.homeSectionTwo:after,
+.homeContainer:after,
+.bannerContainer:after,
+.aboutBottomContainer:after,
+.aboutCardPearent:after,
+.howWeWorkCardContainer:after,
+.container:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.homeSectionTwo {
+	height: 100%;
+	width: 100%;
+}
+
+.topImgContainer {
+	width: 50%;
+	height: 500px;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.topImg {
+	width: 500px;
+	height: 400px;
+	background-color: white;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+/* end of home page */
+
+/* start of about page */
+.aboutTopContainer,
+.aboutBottomContainer {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding-right: 200px;
+	padding-left: 200px;
+	text-align: center;
+}
+
+.breakLineAbout {
+	margin-top: 100px;
+	/* padding-left: 150px;
+	padding-right: 150px; */
+	margin-bottom: 100px;
+	border-bottom: 1px solid black;
+}
+
+.bannerSubHeadinAbout {
+	font-size: 60px;
+	margin-bottom: 20px;
+}
+
+/* end of about page */
+
+/* end of page containers */
+
+/* text containers */
+
+.bannerTextContainer {
+	text-align: center;
+}
+
+.bannerText{
+	background-color: white;
+font-size: 30px;
+}
+
+.homeTopText {
+	width: 50%;
+	height: 100%;
+	padding-top: 100px;
+	float: left;
+	padding-right: 50px;
+}
+
+.subHeadingContainer {
+	width: 100%;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+/* end of text containers */
+
+/* start of headings */
+.bannerHeading {
+	color: white;
+	font-size: 150px;
+	/* border-radius: 5px; */
+	padding:10px;
+	letter-spacing: 3px;
+	
+}
+
+
+.whatwedo {
+	font-size: 70px;
+	background-color: #f2672e;
+	color: white;
+	padding: 15px;
+	display: inline-block;
+	border-radius: 5px;
+	margin-bottom: 50px;
+}
+/* end of headings */
+
+/* start of text */
+.text {
+	font-size: 19px;
+	letter-spacing: 3px;
+	line-height: 1.4em;
+}
+
+.subHeading {
+	font-size: 60px;
+	border-bottom: 5px solid #f2672e;
+}
+/* end of text */
+
+/* start of cards */
+
+.howWeWorkCard {
+	width: 29.33%;
+	margin: 1%;
+	padding: 1%;
+	float: left;
+	text-align: center;
+}
+
+.cardHeading {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.flextest {
+	display: flex;
+	justify-content: center;
+}
+
+.aboutCardPearent {
+	margin-bottom: 100px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.aboutCard {
+	color: #f2672e;
+	text-align: center;
+	float: left;
+	width: 46%;
+	padding: 1%;
+	margin: 1%;
+	height: 100%;
+}
+
+.cardBtnAbout {
+	background-color: #e7e5dd;
+	margin-top: 50px;
+	color: #56514b;
+	width: 200px;
+	font-size: 30px;
+	padding: 10px;
+}
+
+/* end of cards */
+
+/* blog post/ blog page */
+.blogPostPage {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.my-container {
+	border: 1px solid green;
+}
+
+/* end of blog poost/ blog page */
+.brakeLineTablet{
+	display: none;
+}
+.pageBreak{
+	width: 100%;
+	height: 100px;
+	background-color:white;
+}
+
+.container {
+	max-width: 100%;
+
+
+}
+
+.row {
+
+	padding-left: 100px;
+	padding-right:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+
+
+
+	.homeContainer{
+		overflow: hidden;
+	}
+	.bannerTextContainer{
+		overflow: hidden;
+		padding: 0px;
+	}
+
+	.container{
+		padding: 0px !important;
+	}
+
+	.row{
+		padding-left: 40px !important;
+		padding-right: 40px !important;
+		margin-right: 0px !important;
+	}
+
+	.card{
+		margin-bottom: 30px;
+		border: none;
+		border-radius: 0;
+		border-bottom: 3px solid #56514b;
+	}
+
+	.card-header{
+		border: none;
+		background-color: transparent;
+	}
+
+	.text{
+		font-size: 15px;
+	}
+
+
+	.subHeading{
+		font-size: 50px;
+	}
+	
+	.breakLine{
+		margin: 0px;
+	}
+
+	/* start of home page */
+
+
+
+
+	.bannerHeading {
+		font-size: 80px !important;
+	}
+
+	.bannerText{
+		font-size: 15px !important;
+	}
+
+	.topImgContainer{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	.footerContainer{
+		font-size: 12px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	/* end of home page*/
+
+	/* start of about page */
+	.bannerHeadingAbout{
+		font-size: 80px !important;
+	}
+
+	.bannerSubHeadinAbout{
+		font-size: 50px;
+	}
+
+	.aboutTopContainer{
+		padding-left: 50px !important;
+		padding-right: 50px !important;
+	}
+	.aboutText{
+		font-size: 12px !important;
+		background-color: white;
+	}
+	.aboutCard{
+		width: 100%;
+		padding-bottom: 40px;;
+	}
+	/* end of about page */
+
+	/* start of contact pager */
+	.letsTalkHeading{
+		font-size: 40px;
+	}
+	/* end of contact page */
+
+
+}
+
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 900px) {
+
+.sticky-top{
+
+    background-color: white;
+}
+	
+
+	/* banner  */
+	.bannerContainer{
+		margin-bottom: 50px;
+	}
+	
+	/* end of banner */
+	.bannerHeading{
+		padding-left: 30px;
+		padding-right: 30px;
+			font-size: 100px;
+	}
+
+	
+	.bannerTextContainer{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.homeContainer{
+		overflow: hidden;
+	}
+
+	.bannerText{
+		font-size: 25px;
+	}
+
+
+	/* home page */
+
+
+	.homeContainer {
+		padding: 0px 0px 0px 0px;
+		width: 100%;
+		/* height: 100%; */
+	}
+
+	.homeSectionOne {
+		height: 400px;
+		width: 100%;
+		padding: 0;
+	}
+
+	.homeTopText {
+		width: 100%;
+		height: 100%;
+		padding-top: 20px;
+		float: left;
+		padding-right: 30px;
+		padding-left: 30px;
+		margin-bottom: 50px;
+	}
+
+	.whatwedo {
+		font-size: 50px;
+		padding: 10px;
+	}
+
+	.topImgContainer {
+		width: 100%;
+		height: 500px;
+		float: left;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.howWeWorkCard{
+		width: 100%;
+		padding-left: 30px;
+		padding-right: 30px;
+		margin-bottom: 30px;
+	}
+
+	/* end of home page */
+
+	/* line break */
+	.breakLine {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+
+	/* end of line break */
+
+	/* start of about page */
+
+	.bannerHeadingAbout{
+		font-size: 100px;
+	}
+
+	.aboutTopContainer,
+	.aboutBottomContainer {
+	margin-top: 100px;
+	margin-bottom: 80px;
+	padding-right: 80px;
+	padding-left: 100px;
+	text-align: center;
+	}
+
+	.aboutCardPearent {
+		margin-bottom: 100px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	/* end of about page */
+
+	/* start of contact page */
+
+	.formContent{
+		width: 100%;
+		padding: 80px;
+		height: auto;
+	}
+
+.form{
+	width: 100%;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+.formContainer{
+	display: block;
+}
+
+.container{
+	padding: 0px !important;
+}
+
+.row{
+	padding-left: 40px !important;
+	padding-right: 40px !important;
+	margin-right: 0px !important;
+}
+
+.card{
+	margin-bottom: 30px;
+	border: none;
+	border-radius: 0;
+	border-bottom: 3px solid #56514b;
+}
+
+.card-header{
+	border: none;
+	background-color: transparent;
+}
+
+.howWeWorkCardContainer{
+	padding-bottom: 50px;
+	}
+
+
+}

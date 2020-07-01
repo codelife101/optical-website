@@ -1,0 +1,78 @@
+.formContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	height: 100vh;
+	width: 100%;
+}
+
+.formContent {
+	padding-left: 150px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-right: 100px;
+	width: 50%;
+	height: 600px;
+	border-right: 2px solid black;
+	float: left;
+}
+
+.form {
+	padding-left: 50px;
+	padding-right: 150px;
+	height: 500px;
+	width: 50%;
+	float: left;
+}
+
+/* custom styling the wp forms */
+
+.wpforms-form input[type="date"],
+div.wpforms-container-full .wpforms-form input[type="datetime"],
+div.wpforms-container-full .wpforms-form input[type="datetime-local"],
+div.wpforms-container-full .wpforms-form input[type="email"],
+div.wpforms-container-full .wpforms-form input[type="month"],
+div.wpforms-container-full .wpforms-form input[type="number"],
+div.wpforms-container-full .wpforms-form input[type="password"],
+div.wpforms-container-full .wpforms-form input[type="range"],
+div.wpforms-container-full .wpforms-form input[type="search"],
+div.wpforms-container-full .wpforms-form input[type="tel"],
+div.wpforms-container-full .wpforms-form input[type="text"],
+div.wpforms-container-full .wpforms-form input[type="time"],
+div.wpforms-container-full .wpforms-form input[type="url"],
+div.wpforms-container-full .wpforms-form input[type="week"],
+div.wpforms-container-full .wpforms-form select,
+div.wpforms-container-full .wpforms-form textarea {
+	border: none;
+	border-bottom: 3px solid #8c8c8c;
+}
+
+.wpforms-container-full .wpforms-form input[type="submit"],
+div.wpforms-container-full .wpforms-form button[type="submit"],
+div.wpforms-container-full .wpforms-form .wpforms-page-button {
+	border: none;
+	color: white;
+	background-color: #8c8c8c;
+}
+
+.wpforms-container-full:hover .wpforms-form input[type="submit"]:hover,
+div.wpforms-container-full:hover .wpforms-form button[type="submit"]:hover,
+div.wpforms-container-full:hover
+	.wpforms-form:hover
+	.wpforms-page-button:hover {
+	background-color: #f2672e;
+	border: none;
+}
+
+/* end of customizwing form inputs */
+
+.letsTalkHeading {
+	font-size: 50px;
+	background-color: #f2672e;
+	color: white;
+	padding: 15px;
+	display: inline-block;
+	border-radius: 5px;
+	margin-bottom: 50px;
+}
